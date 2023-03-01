@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.image-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.prev-btn {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.next-btn {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+img {
+  width: 80vw;
+  height: 80vh;
+}
+
